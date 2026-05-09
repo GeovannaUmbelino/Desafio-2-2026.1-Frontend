@@ -25,7 +25,7 @@ Para este desafio, você deve utilizar obrigatoriamente:
 
 Para que sua entrega seja validada, o projeto deve conter:
 
-  -  Fidelidade Visual: Respeito absoluto às escolhas do designer no Figma.
+  -  Fidelidade Visual: Respeito absoluto às escolhas do designer no Figma. (dica: Procure ícones em sites especializados como [esse](https://www.flaticon.com/br/))
 
    - Responsividade: Adaptação fluida para diferentes tamanhos de tela.
 
