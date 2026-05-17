@@ -1,15 +1,36 @@
 # Desafio-2-2026.1-Frontend
 
-O desafio consiste em reproduzir uma Landing Page a partir de um design no Figma, [link](https://www.figma.com/design/OhgjHVenrfKh9WDukfdyRn/EngNet_Figma?node-id=106-136&t=MP9be8DDc5q0dWz6-1). Você deverá realizar a inspeção técnica dos elementos e desenvolver uma página "Pixel Perfect" (o mais fiel possível ao layout original).
-O que você vai praticar:
+Este repositório contém a minha entrega para o Desafio 2 do processo Trainee da EngNet Consultoria. O projeto consiste na conversão fiel  de um layout planejado no Figma para uma interface web real, focando em estruturação, responsividade e atenção aos detalhes.
 
-   - Inspeção Técnica: Identificar cores (Hex/RGB), tipografia, espaçamentos e bordas.
+## 🔗 Acessos do Projeto
 
-   - Estilização Moderna: Domínio de Tailwind CSS para um desenvolvimento ágil.
+* **GitHub Pages:** https://geovannaumbelino.github.io/Desafio-2-2026.1-Frontend/ 
 
-   - Responsividade: Garantir que a página seja impecável em Desktop, Tablet e Mobile.
+* **Design Original (Figma):** [Link do Figma disponibilizado no desafio]
 
-   - Clean Code: Organização, indentação e separação de responsabilidades.
+## 🎨 Identidade Visual e Cores
+
+Para garantir a fidelidade ao protótipo e construir o sistema de Modo Escuro/Claro, extraí e estruturei a paleta de cores original do projeto, garantindo contraste e hierarquia.
+* **#FF8D28** (Laranja Primário - Destaque de botões e títulos)
+* **#8A38F5** (Roxo da Marca - Botões de ação secundários)
+* **#000000 / #121418** (Tons de fundo para o Modo Escuro)
+* **#FFFFFF / #F3F4F6** (Tons de fundo para os cartões e seções claras)
+
+## 📌 O que compõe esta Landing Page?
+
+A página foi estruturada para apresentar a empresa de forma clara e atrativa, dividida nos seguintes eixos:
+* **Hero Section:** Apresentação de impacto com a logo 3D e a proposta de valor ("Soluções de Engenharia para superar novos desafios").
+* **Nossos Serviços:** Uma vitrine central que reúne em formato de grid os serviços de Aplicativos, Sites, Concepções Digitais e Sistemas Web.
+* **Sobre Nós & MVV:** Detalhamento da história da empresa júnior, acompanhado dos pilares de Missão, Visão e Valores.
+* **Nossos Cases:** Exposição do portfólio (Viana Costa, Emdia, Concentro) em cartões interativos.
+* **Contato:** Área com formulário dinâmico e links rápidos para WhatsApp, E-mail e Google Maps (configurados para abrir e funcionar corretamente).
+
+## 💡 O Diferencial: Desafios Extras e Inclusão
+
+Fui além do básico exigido no edital para agregar valor real ao projeto:
+* **Dark / Light Mode:** A interface possui um seletor de temas para conforto visual. A transição foi desenhada cuidadosamente para inverter os fundos brancos, mas sem perder a essência das cores originais dos cartões de cases e botões.
+* **Acessibilidade com VLibras:** Como tenho um compromisso forte com a acessibilidade digital, integrei o widget do VLibras na página, garantindo que o conteúdo institucional seja acessível para a comunidade surda.
+
 
 ## 🛠️ Tecnologias Exigidas
 
@@ -21,28 +42,3 @@ Para este desafio, você deve utilizar obrigatoriamente:
 
    - JavaScript (Em arquivo separado, caso haja interações)
 
-## 📋 Requisitos da Entrega
-
-Para que sua entrega seja validada, o projeto deve conter:
-
-  -  Fidelidade Visual: Respeito absoluto às escolhas do designer no Figma. (dica: Procure ícones em sites especializados como [esse](https://www.flaticon.com/br/))
-
-   - Responsividade: Adaptação fluida para diferentes tamanhos de tela.
-
-  -  Links Funcionais: Integrações de e-mail, Google Maps e WhatsApp devem estar operantes. (dica: leia [esse artigo](https://faq.whatsapp.com/5913398998672934) para criar o link para o whatsapp) 
-
-  -  GitHub Pages: O projeto deve estar publicado e acessível via link público.
-
-  -  Organização: Código legível e repositório bem estruturado.
-
-## 🚀 Como Entregar
-
-  -  Fork: Faça um fork deste repositório para a sua conta pessoal.
-
-  -  Desenvolvimento: Codifique sua solução seguindo o design do Figma disponibilizado.
-
-  -  Deploy: Ative o GitHub Pages nas configurações do seu repositório.
-
-  -  Release: Crie uma Release no GitHub contendo a versão final do código.
-
-  -  Google Classroom: Envie o link do seu repositório + Link do GitHub Pages + Arquivo ZIP da Release.
