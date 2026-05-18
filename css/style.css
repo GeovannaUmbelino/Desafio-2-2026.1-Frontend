@@ -442,13 +442,46 @@ img {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.case-logo { 
-  width: 100%; 
-  height: 220px; 
-  object-fit: cover; 
-  object-position: left top; 
-  background-color: #FFFFFF; 
-  border-bottom: 1px solid rgba(156, 163, 175, 0.2); 
+.case-card > img {
+  width: 100%;
+  height: 140px; 
+  object-fit: contain; 
+  object-position: center;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid rgba(156, 163, 175, 0.2);
+  display: block;
+  padding: 0.6rem; 
+}
+
+.case-card > img.full-cover {
+  object-fit: cover;
+  object-position: center;
+  height: 180px;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .case-card > img { height: 160px; }
+  .case-card > img.full-cover { height: 220px; }
+}
+
+@media (min-width: 1024px) {
+  .case-card > img { height: 180px; }
+  .case-card > img.full-cover { height: 300px; }
+}
+
+.case-card > img.case-logo-concentro {
+  height: 120px;
+  object-position: center;
+  padding: 0.4rem;
+}
+
+@media (min-width: 768px) {
+  .case-card > img.case-logo-concentro { height: 140px; }
+}
+
+@media (min-width: 1024px) {
+  .case-card > img.case-logo-concentro { height: 180px; }
 }
 
 .case-content { 
@@ -788,6 +821,7 @@ html.dark-mode .case-card .case-desc {
 
 @media (max-width: 1023px) {
   .mobile-menu-toggle { display: flex; }
+  .nav-links { display: none; }
   .nav-links.show-mobile { 
     display: flex !important; 
     flex-direction: column; 
