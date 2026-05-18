@@ -6,7 +6,7 @@ Este repositório contém a minha entrega para o Desafio 2 do processo Trainee d
 
 * **GitHub Pages:** https://geovannaumbelino.github.io/Desafio-2-2026.1-Frontend/ 
 
-* **Design Original (Figma):** [Link do Figma disponibilizado no desafio]
+* **Design Original (Figma):** https://www.figma.com/design/OhgjHVenrfKh9WDukfdyRn/EngNet_Figma?node-id=6755-926&t=rKewpNpM61gdogve-1
 
 ## 🎨 Identidade Visual e Cores
 
