@@ -23,7 +23,7 @@ A página foi estruturada para apresentar a empresa de forma clara e atrativa, d
 * **Nossos Serviços:** Uma vitrine central que reúne em formato de grid os serviços de Aplicativos, Sites, Concepções Digitais e Sistemas Web.
 * **Sobre Nós & MVV:** Detalhamento da história da empresa júnior, acompanhado dos pilares de Missão, Visão e Valores.
 * **Nossos Cases:** Exposição do portfólio (Viana Costa, Emdia, Concentro) em cartões interativos.
-* **Contato:** Área com formulário dinâmico e links rápidos para WhatsApp, E-mail e Google Maps (configurados para abrir e funcionar corretamente).
+* **Contato:** Área com formulário dinâmico e links rápidos para WhatsApp e E-mail  (configurados para abrir e funcionar corretamente).
 
 ## 💡 O Diferencial: Desafios Extras e Inclusão
 
